@@ -3,15 +3,18 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.venv/
 venv/
+
+# Env
 .env
-*.sqlite3
+.env.*
+!.env.example
 
 # Node
 node_modules/
 .next/
 dist/
-out/
 
 # OS
 .DS_Store
@@ -19,12 +22,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# IDE
-.vscode/
-.idea/
-
-# Secrets
-.env.local
-.env.production
-.env.development
